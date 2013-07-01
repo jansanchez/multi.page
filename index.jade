@@ -1,0 +1,15 @@
+!!!5
+html
+	head
+		title multi.page
+		script(type="text/javascript")
+			var App = {
+				baseUrl: 'http://multi.page/',
+				module: 'application',
+				controller: 'aviso',
+				action: 'lista'
+			}
+	body
+		h1 Multi.page
+		p Lorem ipsum
+		script(data-main="js/main", src="js/libs/require/require-min.js", type="text/javascript")
